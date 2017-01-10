@@ -2,7 +2,7 @@
 
 **Instructions: ** Define each of the following Git concepts.
 
-* What is version control?  Why is it useful?
+* What is version control?  Why is it useful?fffff
 
 Version control refers to keeping one master file while creating copies of the master that can be edited by different users. It is useful because it allows users to go back and look at the revision history of the project and catch bugs if necessary.
 
