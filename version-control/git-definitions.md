@@ -1,6 +1,6 @@
 # Git Definitions
 
-**Instructions: ** Define each of the following Git concepts.
+**Instructions:** Define each of the following Git concepts.
 
 * What is version control?  Why is it useful? ffffff
 
@@ -17,3 +17,5 @@ A commit is a save point. A good commit message is descriptive and describes the
 * What is a merge conflict?
 
 A merge conflict is when there are multiple changes and git doesn't know which of those changes should be included in the final merge.
+
+
