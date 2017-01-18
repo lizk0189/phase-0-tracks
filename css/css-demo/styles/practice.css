@@ -12,3 +12,15 @@ section#contact-info {
 .accomplishment {
 	font-size: .8em;
 }
+
+h1:hover {
+	background-color: blue;
+}
+ol > li {
+	color: blue;
+}
+
+ul > li {
+	color: pink;
+
+}
