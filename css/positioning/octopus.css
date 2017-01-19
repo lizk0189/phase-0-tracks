@@ -13,5 +13,8 @@
 }
 
 .glasses {
-
+position: relative;
+  bottom: 297px;
+  left: 400px;
+  z-index: 1;
 }
