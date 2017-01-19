@@ -1,7 +1,10 @@
 .hat {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
   bottom: 375px;
-  left: 620px;
+  left: 20px;
   z-index: 1;
 }
 
@@ -13,8 +16,11 @@
 }
 
 .glasses {
-position: relative;
-  bottom: 297px;
-  left: 400px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  bottom: 355px;
+  left: 6px;
   z-index: 1;
 }
