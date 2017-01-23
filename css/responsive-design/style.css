@@ -9,13 +9,18 @@ cite {
   margin-top: 10px;
 }
 
-#external-links ul {
+#external-links  {
   list-style-type: none;
   padding-left: 0px;
+  width: 20%;
+  display: table-cell;
+  vertical-align: top;
+
+
 }
 
 /* you're welcome to edit the
-image, figure, and figcaption CSS if you'd like, 
+image, figure, and figcaption CSS if you'd like,
 but it's optional! */
 img {
   width: 100%;
@@ -29,4 +34,34 @@ figure {
 figcaption {
   font-style: italic;
   text-align: right;
+}
+
+body {
+  max-width: 960px;
+}
+
+main {
+
+  width: 50%;
+  display: table-cell;
+  vertical-align: top;
+
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: hotpink;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+    background-color: blue;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  h1 {
+    color: red;
+  }
 }
