@@ -8,3 +8,19 @@ Algorithm for Using an Elevator:
 6. Move to the back of the elevator to allow other passengers to get in.
 7. Wait for the doors to close.
 8. The floor numbers will be displayed on a screen in the elevator, so you will be able to see the progress you are making towards your floor. When you arrive at your desired floor, exit the elevator. Exit quickly, so you do not get caught in the doors.
+
+
+Algorithm for Walking the Dog:
+1. Locate the dog you desire to walk
+2. Locate dog’s leash
+3. Attach leash to collar
+4. Put on shoes (human)
+5. Open the door
+6. Exit the apartment
+7. Close the door
+8. Walk to the end of the hall
+9. Take elevator down to the main floor
+10. Exit the elevator
+11. Turn left
+12. Exit the building
+13. Walk with the dog
