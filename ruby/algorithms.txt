@@ -1,0 +1,10 @@
+Algorithm for Using an Elevator:
+
+1. Push either the up or down arrow button on the exterior of the elevator, depending on the direction you wish to go. The arrow button pointing up (^) will take you to a higher floor. The arrow pointing down (v) will take you to a lower floor.
+2. Wait for the elevator’s doors to open.
+3. Allow any passengers currently in the elevator to exit.
+4. Enter the elevator.
+5. Push the number that corresponds to the floor you wish to travel. If you wish to travel to the Lobby, look for the “L” button. If you wish to travel to the 15th floor, push the button labeled ’15.’
+6. Move to the back of the elevator to allow other passengers to get in.
+7. Wait for the doors to close.
+8. The floor numbers will be displayed on a screen in the elevator, so you will be able to see the progress you are making towards your floor. When you arrive at your desired floor, exit the elevator. Exit quickly, so you do not get caught in the doors.
