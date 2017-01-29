@@ -33,4 +33,12 @@ while number_of_employees < employees
   else
     puts "Results inconclusive."
   end
+
+puts "List all allergies one at a time. Type 'done' when finished."
+  allergies = gets.chomp
+if allergies == "sunshine"
+  puts "Probably a vampire."
+else allergies == "done"
+  break
+end
 end
