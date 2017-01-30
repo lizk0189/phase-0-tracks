@@ -40,3 +40,4 @@ def decrypt(password2)
   password2
 end
 
+#decrypt(encrypt("swordfish")) will output "swordfish"; Encrypt advances the letters forward one space and decrypt pushes it back to the original string.
