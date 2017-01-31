@@ -7,10 +7,10 @@
 # "iNvEsTiGaTiOn".<swapcase>
 # => “InVeStIgAtIoN”
 
-# "zom".<???>
+# "zom".<tr_s('o', 'oo'>
 # => “zoom”
 
-# "enhance".<center>
+# "enhance".<center(20)>
 # => "    enhance    "
 
 # "Stop! You’re under arrest!".<upcase>
@@ -22,10 +22,10 @@
 # " suspects".<concat>
 # => "the usual suspects"
 
-# "The case of the disappearing last letter".<???>
+# "The case of the disappearing last letter".<chop>
 # => "The case of the disappearing last lette"
 
-# "The mystery of the missing first letter".<???>
+# "The mystery of the missing first letter".<slice(0)>
 # => "he mystery of the missing first letter"
 
 # "Elementary,    my   dear        Watson!".<strip>
