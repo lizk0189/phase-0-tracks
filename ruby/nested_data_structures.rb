@@ -25,3 +25,9 @@ restaurant = {
 		specials: ["meatloaf", "salad"]
 	}
 }
+
+# What are the number of male servers in the bar area?
+p restaurant[:bar][:number_of_servers][:male]
+
+# What are the specials in the cafe?
+p restaurant [:cafe][:specials]
