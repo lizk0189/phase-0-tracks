@@ -19,9 +19,10 @@ class Puppy
 	def bark(message)
 		puts message.upcase
 	end
+	def initialize
+		puts "Initializing new puppy instance ..."
+	end
 end
-
-#DRIVER CODE
 
 puppy = Puppy.new
 puppy.fetch('frisbee')
@@ -29,3 +30,27 @@ puppy.speak(4)
 puppy.roll_over
 puppy.dog_years(4)
 puppy.bark('hello')
+
+#RELEASE 2
+class Exercise
+	def initialize
+		puts "Welcome to the Gym."
+	end
+	def lift_weight(weight)
+		puts "Wow! You just lifted #{weight} pounds."
+	end
+	def run(miles)
+		puts "Wow! You just ran #{miles} miles."
+	end
+end
+
+gym = []
+50.times do
+	patron = Exercise.new
+	gym << patron
+end
+
+gym.each do |patron|
+	patron.lift_weight(12)
+	patron.run(9)
+end
