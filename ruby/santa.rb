@@ -1,6 +1,6 @@
 class Santa
-		attr_reader :age, :ethnicity
-		attr_accessor :gender
+		attr_reader :ethnicity
+		attr_accessor :age, :gender
 
 		def initialize(gender,ethnicity)
 		puts "Initializing Santa instance ..."
@@ -27,7 +27,7 @@ class Santa
 	def get_mad_at(bad_reindeer)
 		@reindeer_ranking.delete(bad_reindeer)
 		@reindeer_ranking << bad_reindeer
-		puts "I am mad at you #{bad_reindeer}."
+		puts "You are in last place, #{bad_reindeer}."
 		puts @reindeer_ranking
 	end
 end
@@ -41,14 +41,12 @@ santa.celebrate_birthday
 santa.get_mad_at("Rudolph")
 santa.gender = "idk"
 
-=begin 
-santas = []
+
 genders = ["agender", "female", "bigender", "male", "female", "gender fluid", "N/A"]
 ethnicities = ["black", "Latino", "white", "Japanese-African", "prefer not to say", "Mystical Creature (unicorn)", "N/A"]
+
 10.times do
-	santas << Santa.new(genders.sample, ethnicities.sample)
+	new_santa = Santa.new(genders.sample, ethnicities.sample)
+	new_santa.age = rand(140)
+	puts "This Santa identifies as #{new_santa.gender} and #{new_santa.ethnicity} and is #{new_santa.age}."
 end
-santas.each do
-	puts "Santa identifies as #{@gender} and #{@ethnicity}."
-end
-=end
