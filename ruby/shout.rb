@@ -1,3 +1,13 @@
 module Shout
-  # we'll put some methods here soon, but this code is fine for now!
+  def self.yell_angrily(words)
+    puts words + "!!!" + " :("
+  end
+  def self.yell_happily(words)
+  	puts words + "!!" + " :)"
+  end 
 end
+
+##DRIVER CODE##
+
+Shout.yell_angrily("WTF")
+Shout.yell_happily("YES")
